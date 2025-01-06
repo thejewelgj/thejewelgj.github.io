@@ -1,0 +1,92 @@
+[
+    {
+        "url": "../img/cachorro1.jpg",
+        "titulo": "Rocky",
+        "descripcion": "Un cachorro lleno de energía y amor.",
+        "historia": "../views/historia1.html"
+    },
+    {
+        "url": "../img/cachorro2.jpg",
+        "titulo": "Bella",
+        "descripcion": "Le encanta explorar y jugar.",
+        "historia": "../views/historia2.html"
+    },
+    {
+        "url": "../img/cachorro3.jpg",
+        "titulo": "Charlie",
+        "descripcion": "Siempre en busca de aventuras.",
+        "historia": "../views/historia3.html"
+    },
+    {
+        "url": "../img/cachorro4.jpg",
+        "titulo": "Lola",
+        "descripcion": "Una cachorra curiosa y divertida.",
+        "historia": "../views/historia4.html"
+    },
+    {
+        "url": "../img/cachorro5.jpg",
+        "titulo": "Max",
+        "descripcion": "Un cachorro adorable con mucha energía.",
+        "historia": "../views/historia5.html"
+    },
+    {
+        "url": "../img/cachorro6.jpg",
+        "titulo": "Simba",
+        "descripcion": "El líder de la camada, protector y juguetón.",
+        "historia": "../views/historia6.html"
+    },
+    {
+        "url": "../img/cachorro7.jpg",
+        "titulo": "Daisy",
+        "descripcion": "Siempre lista para recibir cariño.",
+        "historia": "../views/historia7.html"
+    },
+    {
+        "url": "../img/cachorros1.jpg",
+        "titulo": "Trío de hermanos",
+        "descripcion": "Tres perritos inseparables buscando un hogar.",
+        "historia": "../views/historia8.html"
+    },
+    {
+        "url": "../img/gato1.jpg",
+        "titulo": "Max",
+        "descripcion": "Un gatito juguetón y curioso.",
+        "historia": "../views/historia9.html"
+    },
+    {
+        "url": "../img/gato2.jpg",
+        "titulo": "Luna",
+        "descripcion": "Adora dormir al sol.",
+        "historia": "../views/historia10.html"
+    },
+    {
+        "url": "../img/perro1.jpg",
+        "titulo": "Bruno",
+        "descripcion": "Un compañero leal.",
+        "historia": "../views/historia11.html"
+    },
+    {
+        "url": "../img/perro2.jpg",
+        "titulo": "Molly",
+        "descripcion": "Siempre lista para jugar.",
+        "historia": "../views/historia12.html"
+    },
+    {
+        "url": "../img/perro3.jpg",
+        "titulo": "Toby",
+        "descripcion": "El protector del refugio.",
+        "historia": "../views/historia13.html"
+    },
+    {
+        "url": "../img/perro4.jpg",
+        "titulo": "Cooper",
+        "descripcion": "Leal, cariñoso y siempre sonriente.",
+        "historia": "../views/historia14.html"
+    },
+    {
+        "url": "../img/perro5.jpg",
+        "titulo": "Bailey",
+        "descripcion": "El mejor amigo de todos los niños.",
+        "historia": "../views/historia15.html"
+    }
+]

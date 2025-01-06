@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda del Refugio de Animales: artículos para el cuidado de tus mascotas.">
+    <meta name="keywords" content="tienda de mascotas, artículos para perros, artículos para gatos, accesorios para mascotas, cuidado animal">
+    <meta name="author" content="Tu Nombre">
+    <title>Refugio de Animales | Tienda</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/logo2.png" alt="HOTEL GUAUMIAU" width="1074" height="798">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../views/galeria.html">Galería</a></li>
+                <li><a href="../views/presupuesto.html">Presupuesto</a></li>
+                <li><a href="../views/tienda.html" class="active">Tienda</a></li>
+                <li><a href="../views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Sección Principal -->
+    <main>
+        <h1 class="titulo-seccion">Tienda</h1>
+        <section id="productos-container">
+            <!-- Los productos se cargarán dinámicamente desde tienda.js -->
+        </section>
+
+        <!-- Carrito de Compras -->
+        <section id="carrito" class="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="carrito-items">
+                <!-- Los productos del carrito se mostrarán aquí -->
+            </div>
+            <div id="carrito-total">
+                <!-- ✅ Cambiado a símbolo del euro -->
+                <p>Total: <span id="total-precio">0</span></p>
+                <button id="vaciar-carrito">Vaciar Carrito</button>
+                <button id="finalizar-compra">Finalizar Compra</button>
+            </div>
+            <!-- Mensaje de compra sin alert -->
+            <div id="mensaje-compra" style="display: none; border: 1px solid #ddd; padding: 10px; margin-top: 20px;"></div>
+        </section>
+    </main>
+
+    <!-- Scroll Arrows -->
+    <div id="scroll-up" class="scroll-arrow">&#8593;</div>
+    <div id="scroll-down" class="scroll-arrow">&#8595;</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="icon facebook">
+                <img src="../img/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="icon twitter">
+                <img src="../img/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="icon instagram">
+                <img src="../img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" class="icon tiktok">
+                <img src="../img/tiktok.png" alt="TikTok">
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="icon youtube">
+                <img src="../img/youtube.png" alt="YouTube">
+            </a>
+        </div>
+        <p class="footer-text">© 2024 Refugio de Animales - Todos los derechos reservados</p>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="../js/tienda.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,95 @@
+
+[
+    {
+      "id": 1,
+      "nombre": "Arena para gatos",
+      "descripcion": "Arena absorbente para gatos, ideal para hogares limpios.",
+      "precio": 15,
+      "imagen": "./arenagatos.webp"
+    },
+    {
+      "id": 2,
+      "nombre": "Arena para Gatos XXL",
+      "descripcion": "Arena extra grande para gatos, perfecta para varias mascotas.",
+      "precio": 25,
+      "imagen": "arenagatosxxl.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Barritas Dentales",
+      "descripcion": "Barritas dentales para mantener la salud bucal de tus mascotas.",
+      "precio": 5,
+      "imagen": "barritasdentales.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Cama para Mascotas 1",
+      "descripcion": "Cama cómoda y suave para tu mascota.",
+      "precio": 30,
+      "imagen": "cama1.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Cama para Mascotas 2",
+      "descripcion": "Cama de lujo para mascotas exigentes.",
+      "precio": 40,
+      "imagen": "cama2.webp"
+    },
+    {
+      "id": 6,
+      "nombre": "Collar Clásico",
+      "descripcion": "Collar ajustable clásico para perros y gatos.",
+      "precio": 10,
+      "imagen": "collar1.webp"
+    },
+    {
+      "id": 7,
+      "nombre": "Collar Moderno",
+      "descripcion": "Collar moderno con diseño único.",
+      "precio": 13,
+      "imagen": "collar2.webp"
+    },
+    {
+      "id": 8,
+      "nombre": "Collar Antiparasitario",
+      "descripcion": "Protección efectiva contra pulgas y garrapatas.",
+      "precio": 20,
+      "imagen": "collarantiparasitos.webp"
+    },
+    {
+      "id": 9,
+      "nombre": "Comida para Gatos",
+      "descripcion": "Alimento premium para gatos adultos.",
+      "precio": 14,
+      "imagen": "comidagato.webp"
+    },
+    {
+      "id": 10,
+      "nombre": "Comida Natural para Mascotas",
+      "descripcion": "Alimento natural y saludable para mascotas.",
+      "precio": 20,
+      "imagen": "comidanatural.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Galletas para Mascotas",
+      "descripcion": "Galletas deliciosas para premiar a tus mascotas.",
+      "precio": 6,
+      "imagen": "galletas.png"
+    },
+    {
+      "id": 12,
+      "nombre": "Pienso para Perros",
+      "descripcion": "Alimento balanceado para perros de todas las edades.",
+      "precio": 25,
+      "imagen": "pienso1.webp"
+    },
+    {
+      "id": 13,
+      "nombre": "Pollo Deshidratado",
+      "descripcion": "Snack saludable de pollo deshidratado para tus mascotas.",
+      "precio": 10,
+      "imagen": "galletas.png"
+    }
+  ]
+  

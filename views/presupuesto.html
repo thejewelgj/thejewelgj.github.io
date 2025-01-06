@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario para calcular presupuestos">
+    <meta name="keywords" content="presupuesto, formulario, servicios">
+    <meta name="author" content="Tu Nombre">
+    <title>Presupuesto</title>
+    <!-- Vinculación al CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../img/logo2.png" alt="HOTEL GUAUMIAU" width="1074" height="798">
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../views/galeria.html">Galería</a></li>
+                <li><a href="../views/presupuesto.html" class="active">Presupuesto</a></li>
+                <li><a href="../views/tienda.html">Tienda</a></li>
+                <li><a href="../views/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presupuesto -->
+    <main>
+        <section class="presupuesto">
+            <h1>Calcula tu Presupuesto</h1>
+            <p>Por favor, completa el formulario para calcular el presupuesto personalizado.</p>
+            
+            <form id="formPresupuesto">
+                <!-- Datos de contacto -->
+                <fieldset>
+                    <legend>Datos de Contacto</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="15" required>
+                    
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" maxlength="40" required>
+                    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" maxlength="9" required pattern="[0-9]{9}">
+                    
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+
+                <!-- Opciones de presupuesto -->
+                <fieldset>
+                    <legend>Opciones de Presupuesto</legend>
+
+                    <!-- Producto -->
+                    <label for="producto">Selecciona un producto:</label>
+                    <select id="producto" name="producto">
+                        <option value="100">Consulta Veterinaria - 100€</option>
+                        <option value="200">Vacunación Completa - 200€</option>
+                        <option value="300">Adopción de Mascota - 300€</option>
+                    </select>
+
+                    <!-- Plazo -->
+                    <label for="plazo">Plazo (en meses):</label>
+                    <input type="number" id="plazo" name="plazo" min="1" max="12" value="1" required>
+
+                    <!-- Extras -->
+                    <label>Extras:</label>
+                    <div class="extras">
+                        <input type="checkbox" id="extra1" name="extra" value="20">
+                        <label for="extra1">Chequeo adicional (+20€)</label>
+                        <input type="checkbox" id="extra2" name="extra" value="50">
+                        <label for="extra2">Cama para mascota (+50€)</label>
+                        <input type="checkbox" id="extra3" name="extra" value="30">
+                        <label for="extra3">Juguete especial (+30€)</label>
+                    </div>
+
+                    <!-- Presupuesto Calculado -->
+                    <div class="resultado">
+                        <label>Presupuesto Total:</label>
+                        <output id="presupuestoTotal">0€</output>
+                    </div>
+                </fieldset>
+
+                <!-- Envío -->
+                <fieldset>
+                    <legend>Envío del Presupuesto</legend>
+                    <input type="checkbox" id="condiciones" name="condiciones" required>
+                    <label for="condiciones">Acepto las condiciones de privacidad</label>
+                    
+                    <button type="submit">Enviar Presupuesto</button>
+                    <button type="reset">Resetear</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Botones de Scroll -->
+    <div id="scroll-up" class="scroll-arrow">&#8593;</div>
+    <div id="scroll-down" class="scroll-arrow">&#8595;</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="icon facebook">
+                <img src="../img/facebook.png" alt="Facebook" width="735" height="729">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="icon twitter">
+                <img src="../img/twitter.png" alt="Twitter" width="736" height="610">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="icon instagram">
+                <img src="../img/instagram.png" alt="Instagram" width="626" height="626">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" class="icon tiktok">
+                <img src="../img/tiktok.png" alt="TikTok" width="736" height="736">
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="icon youtube">
+                <img src="../img/youtube.png" alt="YouTube" width="735" height="736">
+            </a>
+        </div>
+        <p class="footer-text">© 2024 Mi Sitio Web - Todos los derechos reservados</p>
+    </footer>
+    
+    <!-- Vinculación al JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
+

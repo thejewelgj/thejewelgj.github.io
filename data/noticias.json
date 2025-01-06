@@ -1,0 +1,27 @@
+
+[
+    {
+        "titulo": "Nueva adopción exitosa",
+        "descripcion": "¡Estamos emocionados de compartir que Luna y Toby encontraron un hogar amoroso esta semana!",
+        "enlace": "views/galeria.html",
+        "fecha": "2024-12-10"
+    },
+    {
+        "titulo": "Campaña de vacunación gratuita",
+        "descripcion": "Invitamos a todos a participar en nuestra campaña de vacunación el próximo sábado.",
+        "enlace": "views/contacto.html",
+        "fecha": "2024-12-12"
+    },
+    {
+        "titulo": "Se necesitan voluntarios",
+        "descripcion": "Estamos buscando voluntarios para ayudar en el refugio los fines de semana.",
+        "enlace": "views/contacto.html",
+        "fecha": "2024-12-14"
+    },
+    {
+        "titulo": "Nuevos artículos en la tienda",
+        "descripcion": "Descubre los nuevos productos disponibles en nuestra tienda para el cuidado de tus mascotas.",
+        "enlace": "views/tienda.html",
+        "fecha": "2024-12-15"
+    }
+]

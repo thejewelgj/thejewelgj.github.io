@@ -1,0 +1,45 @@
+
+[
+    {
+        "imagen": "./img/arenagatos.webp",
+        "titulo": "Ara para Gatos",
+        "descripcion": "Arena absorbente de alta calidad.",
+        "precio": "12.99€",
+        "url": "../views/tienda.html"
+    },
+    {
+        "imagen": "./img/arenagatosxxl.webp",
+        "titulo": "Arena para Gatos XXL",
+        "descripcion": "Para hogares con múltiples gatos.",
+        "precio": "24.99€",
+        "url": "../views/tienda.html"
+    },
+    {
+        "imagen": "./img/barritasdentales.jpg",
+        "titulo": "Barritas Dentales",
+        "descripcion": "Mantén los dientes de tu perro limpios.",
+        "precio": "9.99€",
+        "url": "../views/tienda.html"
+    },
+    {
+        "imagen": "./img/cama1.jpg",
+        "titulo": "Cama para Mascotas",
+        "descripcion": "Cama cómoda y lavable para tu mascota.",
+        "precio": "29.99€",
+        "url": "../views/tienda.html"
+    },
+    {
+        "imagen": "./img/collar1.webp",
+        "titulo": "Collar Clásico",
+        "descripcion": "Collar resistente y elegante.",
+        "precio": "14.99€",
+        "url": "../views/tienda.html"
+    },
+    {
+        "imagen": "./img/comidagato.webp",
+        "titulo": "Comida para Gatos",
+        "descripcion": "Alimento completo y saludable.",
+        "precio": "19.99€",
+        "url": "../views/tienda.html"
+    }
+]
